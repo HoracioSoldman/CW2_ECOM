@@ -1,0 +1,7002 @@
+[
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 11,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 5,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 8,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 3,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 4,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 3,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 2,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 2,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 2,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 0,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 7,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 4,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 70,
+        "maxStock": 100,
+        "month": 3,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 1,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 0,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 5,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 10,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 5,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 5,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 8,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 3,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 7,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 0,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 9,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 11,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 3,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 7,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 7,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 10,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 6,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 7,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 11,
+        "price": 103
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 6,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 4,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 7,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 10,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 9,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 0,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 0,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 2,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 57,
+        "maxStock": 100,
+        "month": 11,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 4,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 10,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 10,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 10,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 3,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 3,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 3,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 4,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 6,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 3,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 11,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 6,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 9,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 1,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 1,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 3,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 3,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 11,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 9,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 6,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 8,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 10,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 10,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 6,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 10,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 4,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 1,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 6,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 6,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 1,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 1,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 10,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 3,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 4,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 0,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 1,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 9,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 10,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 0,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 19,
+        "maxStock": 100,
+        "month": 7,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 12,
+        "maxStock": 100,
+        "month": 9,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 1,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 11,
+        "price": 109
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 1,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 76,
+        "maxStock": 100,
+        "month": 9,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 9,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 9,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 6,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 8,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 8,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 7,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 10,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 4,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 2,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 6,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 6,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 3,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 4,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 11,
+        "price": 103
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 7,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 2,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 1,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 4,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 5,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 2,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 9,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 7,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 5,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 12,
+        "maxStock": 100,
+        "month": 9,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 3,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 8,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 7,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 11,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 10,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 3,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 11,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 4,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 5,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 5,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 3,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 10,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 6,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 1,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 7,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 4,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 10,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 2,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 10,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 7,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 6,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 8,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 2,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 2,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 1,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 10,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 2,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 9,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 9,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 6,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 10,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 8,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 1,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 6,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 11,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 8,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 2,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 11,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 3,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 3,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 11,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 4,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 0,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 8,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 11,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 10,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 7,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 7,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 8,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 11,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 8,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 2,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 9,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 76,
+        "maxStock": 100,
+        "month": 5,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 4,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 7,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 8,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 2,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 7,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 8,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 9,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 2,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 9,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 19,
+        "maxStock": 100,
+        "month": 6,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 7,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 7,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 2,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 9,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 10,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 5,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 7,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 2,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 10,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 5,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 76,
+        "maxStock": 100,
+        "month": 5,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 9,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 8,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 3,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 5,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 8,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 2,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 5,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 2,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 6,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 2,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 4,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 6,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 2,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 3,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 9,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 3,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 8,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 2,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 7,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 8,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 8,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 1,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 1,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 8,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 6,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 1,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 5,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 11,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 5,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 1,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 11,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 11,
+        "price": 104
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 6,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 3,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 1,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 11,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 11,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 1,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 5,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 8,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 8,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 3,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 8,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 54,
+        "maxStock": 100,
+        "month": 2,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 4,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 1,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 8,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 6,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 19,
+        "maxStock": 100,
+        "month": 9,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 8,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 57,
+        "maxStock": 100,
+        "month": 0,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 14,
+        "maxStock": 100,
+        "month": 10,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 0,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 3,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 7,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 9,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 11,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 5,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 9,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 4,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 5,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 4,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 8,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 1,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 4,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 2,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 2,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 7,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 1,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 3,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 9,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 7,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 10,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 0,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 9,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 9,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 2,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 8,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 10,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 6,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 6,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 6,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 1,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 7,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 11,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 6,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 11,
+        "price": 104
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 3,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 3,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 1,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 5,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 6,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 4,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 6,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 2,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 2,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 10,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 7,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 4,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 4,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 5,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 8,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 0,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 8,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 0,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 3,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 10,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 10,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 0,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 0,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 1,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 10,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 2,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 0,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 11,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 6,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 0,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 11,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 11,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 2,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 70,
+        "maxStock": 100,
+        "month": 8,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 11,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 9,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 2,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 4,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 2,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 1,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 8,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 6,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 6,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 4,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 5,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 4,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 4,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 6,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 4,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 5,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 4,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 0,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 10,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 6,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 0,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 3,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 4,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 2,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 1,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 8,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 6,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 0,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 1,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 2,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 2,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 10,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 5,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 1,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 10,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 0,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 11,
+        "price": 109
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 0,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 5,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 7,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 7,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 6,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 1,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 10,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 1,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 54,
+        "maxStock": 100,
+        "month": 10,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 11,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 8,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 3,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 8,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 2,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 4,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 12,
+        "maxStock": 100,
+        "month": 2,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 11,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 8,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 14,
+        "maxStock": 100,
+        "month": 2,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 11,
+        "price": 105
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 3,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 1,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 9,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 3,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 2,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 9,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 10,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 5,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 4,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 7,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 3,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 1,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 0,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 10,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 7,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 11,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 2,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 4,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 8,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 8,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 3,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 11,
+        "price": 108
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 9,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 7,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 6,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 1,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 1,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 4,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 0,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 7,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 11,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 7,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 9,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 8,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 9,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 3,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 2,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 4,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 10,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 4,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 5,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 7,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 7,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 6,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 10,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 7,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 0,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 0,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 6,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 1,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 10,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 0,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 6,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 9,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 4,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 7,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 9,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 7,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 0,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 4,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 2,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 3,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 11,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 10,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 7,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 3,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 8,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 11,
+        "price": 101
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 2,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 1,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 8,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 4,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 4,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 10,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 8,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 4,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 0,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 1,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 6,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 6,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 6,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 9,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 2,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 1,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 0,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 4,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 3,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 4,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 5,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 6,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 8,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 2,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 0,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 3,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 2,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 0,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 14,
+        "maxStock": 100,
+        "month": 5,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 6,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 3,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 9,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 3,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 10,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 6,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 8,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 9,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 8,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 6,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 6,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 6,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 6,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 7,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 11,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 4,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 7,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 10,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 0,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 9,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 5,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 1,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 0,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 7,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 7,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 7,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 3,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 3,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 6,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 5,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 0,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 5,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 7,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 2,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 2,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 5,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 5,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 2,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 11,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 4,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 6,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 9,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 7,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 5,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 11,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 1,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 10,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 7,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 6,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 2,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 5,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 8,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 8,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 5,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 9,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 10,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 5,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 5,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 0,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 8,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 11,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 0,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 3,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 8,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 3,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 1,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 9,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 10,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 2,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 0,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 7,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 9,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 5,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 0,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 7,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 2,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 4,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 8,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 8,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 0,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 11,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 6,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 11,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 0,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 1,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 8,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 10,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 4,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 0,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 2,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 1,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 70,
+        "maxStock": 100,
+        "month": 4,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 4,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 2,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 11,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 8,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 1,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 9,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 4,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 11,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 9,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 8,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 2,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 3,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 0,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 4,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 3,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 3,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 2,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 10,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 2,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 1,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 9,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 0,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 5,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 11,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 2,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 8,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 11,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 4,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 4,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 5,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 0,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 2,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 2,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 6,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 0,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 11,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 7,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 2,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 0,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 0,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 4,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 3,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 54,
+        "maxStock": 100,
+        "month": 6,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 9,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 6,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 10,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 4,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 1,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 0,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 8,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 1,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 6,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 10,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 2,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 8,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 5,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 10,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 3,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 9,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 9,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 9,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 4,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 10,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 9,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 8,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 5,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 9,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 4,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 4,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 1,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 4,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 3,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 9,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 10,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 4,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 8,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 3,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 3,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 0,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 5,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 41,
+        "maxStock": 100,
+        "month": 9,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 81,
+        "maxStock": 100,
+        "month": 1,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 4,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 3,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 6,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 2,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 0,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 6,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 8,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 2,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 7,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 2,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 4,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 4,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 57,
+        "maxStock": 100,
+        "month": 10,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 0,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 2,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 8,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 8,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 9,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 4,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 9,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 11,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 9,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 0,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 10,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 5,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 5,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 5,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 96,
+        "maxStock": 100,
+        "month": 10,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 5,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 4,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 6,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 11,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 11,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 2,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 7,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 9,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 7,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 9,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 4,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 2,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 14,
+        "maxStock": 100,
+        "month": 10,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 8,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 2,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 5,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 10,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 2,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 4,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 6,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 2,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 10,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 11,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 10,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 6,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 2,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 11,
+        "price": 109
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 5,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 11,
+        "price": 105
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 8,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 10,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 1,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 6,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 10,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 54,
+        "maxStock": 100,
+        "month": 4,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 9,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 3,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 8,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 8,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 7,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 8,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 2,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 8,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 54,
+        "maxStock": 100,
+        "month": 5,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 6,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 2,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 3,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 8,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 9,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 9,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 76,
+        "maxStock": 100,
+        "month": 0,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 10,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 5,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 10,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 0,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 4,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 7,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 9,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 9,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 10,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 11,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 8,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 10,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 8,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 76,
+        "maxStock": 100,
+        "month": 2,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 2,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 4,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 11,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 4,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 8,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 0,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 4,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 8,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 6,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 0,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 6,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 5,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 6,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 8,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 8,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 1,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 8,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 6,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 11,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 0,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 11,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 9,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 9,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 1,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 4,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 83,
+        "maxStock": 100,
+        "month": 2,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 1,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 8,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 3,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 0,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 1,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 1,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 3,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 1,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 5,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 10,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 8,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 6,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 11,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 9,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 7,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 7,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 5,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 0,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 13,
+        "maxStock": 100,
+        "month": 3,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 5,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 2,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 11,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 8,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 19,
+        "maxStock": 100,
+        "month": 1,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 57,
+        "maxStock": 100,
+        "month": 10,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 8,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 11,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 11,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 10,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 4,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 11,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 4,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 0,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 9,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 2,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 1,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 43,
+        "maxStock": 100,
+        "month": 7,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 2,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 11,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 56,
+        "maxStock": 100,
+        "month": 9,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 4,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 0,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 0,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 3,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 5,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 10,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 3,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 3,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 10,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 4,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 7,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 6,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 25,
+        "maxStock": 100,
+        "month": 1,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 2,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 1,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 10,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 4,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 5,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 6,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 53,
+        "maxStock": 100,
+        "month": 7,
+        "price": 73
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 1,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 10,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 10,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 3,
+        "maxStock": 100,
+        "month": 6,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 3,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 6,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 15,
+        "maxStock": 100,
+        "month": 2,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 4,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 10,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 30,
+        "maxStock": 100,
+        "month": 3,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 0,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 7,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 0,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 3,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 67,
+        "maxStock": 100,
+        "month": 2,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 3,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 8,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 0,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 6,
+        "price": 52
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 8,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 44,
+        "maxStock": 100,
+        "month": 6,
+        "price": 78
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 3,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 78,
+        "maxStock": 100,
+        "month": 5,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 2,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 1,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 9,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 10,
+        "maxStock": 100,
+        "month": 7,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 66,
+        "maxStock": 100,
+        "month": 11,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 4,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 88,
+        "maxStock": 100,
+        "month": 7,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 3,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 2,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 4,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 7,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 99,
+        "maxStock": 100,
+        "month": 4,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 10,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 22,
+        "maxStock": 100,
+        "month": 11,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 52,
+        "maxStock": 100,
+        "month": 4,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 80,
+        "maxStock": 100,
+        "month": 9,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 1,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 9,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 24,
+        "maxStock": 100,
+        "month": 6,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 7,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 38,
+        "maxStock": 100,
+        "month": 5,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 1,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 2,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 37,
+        "maxStock": 100,
+        "month": 0,
+        "price": 81
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 3,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 58,
+        "maxStock": 100,
+        "month": 3,
+        "price": 71
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 2,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 11,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 100,
+        "maxStock": 100,
+        "month": 6,
+        "price": 50
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 11,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 4,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 97,
+        "maxStock": 100,
+        "month": 11,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 7,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 6,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 11,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 72,
+        "maxStock": 100,
+        "month": 9,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 6,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 60,
+        "maxStock": 100,
+        "month": 11,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 94,
+        "maxStock": 100,
+        "month": 1,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 98,
+        "maxStock": 100,
+        "month": 6,
+        "price": 51
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 29,
+        "maxStock": 100,
+        "month": 8,
+        "price": 85
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 3,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 35,
+        "maxStock": 100,
+        "month": 2,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 8,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 11,
+        "maxStock": 100,
+        "month": 2,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 0,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 7,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 6,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 8,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 3,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 36,
+        "maxStock": 100,
+        "month": 2,
+        "price": 82
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 7,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 11,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 16,
+        "maxStock": 100,
+        "month": 4,
+        "price": 92
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 2,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 5,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 3,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 11,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 51,
+        "maxStock": 100,
+        "month": 8,
+        "price": 74
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 89,
+        "maxStock": 100,
+        "month": 9,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 79,
+        "maxStock": 100,
+        "month": 4,
+        "price": 60
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 9,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 4,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 64,
+        "maxStock": 100,
+        "month": 6,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 1,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 11,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 5,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 4,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 6,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 10,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 86,
+        "maxStock": 100,
+        "month": 9,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 70,
+        "maxStock": 100,
+        "month": 11,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 6,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 1,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 11,
+        "price": 106
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 2,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 5,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 4,
+        "maxStock": 100,
+        "month": 1,
+        "price": 98
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 4,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 5,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 11,
+        "price": 94
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 85,
+        "maxStock": 100,
+        "month": 8,
+        "price": 57
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 55,
+        "maxStock": 100,
+        "month": 3,
+        "price": 72
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 1,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 8,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 1,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 11,
+        "price": 101
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 50,
+        "maxStock": 100,
+        "month": 7,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 3,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 4,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 32,
+        "maxStock": 100,
+        "month": 3,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 70,
+        "maxStock": 100,
+        "month": 10,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 17,
+        "maxStock": 100,
+        "month": 2,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 1,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 73,
+        "maxStock": 100,
+        "month": 0,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 26,
+        "maxStock": 100,
+        "month": 4,
+        "price": 87
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 6,
+        "maxStock": 100,
+        "month": 4,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 2,
+        "maxStock": 100,
+        "month": 8,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 31,
+        "maxStock": 100,
+        "month": 6,
+        "price": 84
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 59,
+        "maxStock": 100,
+        "month": 5,
+        "price": 70
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 23,
+        "maxStock": 100,
+        "month": 8,
+        "price": 88
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 8,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 92,
+        "maxStock": 100,
+        "month": 2,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 7,
+        "maxStock": 100,
+        "month": 1,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 8,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 28,
+        "maxStock": 100,
+        "month": 3,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 20,
+        "maxStock": 100,
+        "month": 0,
+        "price": 90
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 65,
+        "maxStock": 100,
+        "month": 6,
+        "price": 67
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 3,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 39,
+        "maxStock": 100,
+        "month": 6,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 69,
+        "maxStock": 100,
+        "month": 10,
+        "price": 65
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 0,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 2,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 48,
+        "maxStock": 100,
+        "month": 4,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 21,
+        "maxStock": 100,
+        "month": 3,
+        "price": 89
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 75,
+        "maxStock": 100,
+        "month": 4,
+        "price": 62
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 3,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 68,
+        "maxStock": 100,
+        "month": 1,
+        "price": 66
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 77,
+        "maxStock": 100,
+        "month": 5,
+        "price": 61
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 9,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 84,
+        "maxStock": 100,
+        "month": 7,
+        "price": 58
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 87,
+        "maxStock": 100,
+        "month": 0,
+        "price": 56
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 63,
+        "maxStock": 100,
+        "month": 8,
+        "price": 68
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 9,
+        "maxStock": 100,
+        "month": 9,
+        "price": 95
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 14,
+        "maxStock": 100,
+        "month": 8,
+        "price": 93
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 27,
+        "maxStock": 100,
+        "month": 10,
+        "price": 86
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 2,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 34,
+        "maxStock": 100,
+        "month": 7,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 4,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 90,
+        "maxStock": 100,
+        "month": 5,
+        "price": 55
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 62,
+        "maxStock": 100,
+        "month": 11,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 33,
+        "maxStock": 100,
+        "month": 10,
+        "price": 83
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 93,
+        "maxStock": 100,
+        "month": 1,
+        "price": 53
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 82,
+        "maxStock": 100,
+        "month": 1,
+        "price": 59
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 18,
+        "maxStock": 100,
+        "month": 6,
+        "price": 91
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 8,
+        "maxStock": 100,
+        "month": 10,
+        "price": 96
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 47,
+        "maxStock": 100,
+        "month": 3,
+        "price": 76
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 46,
+        "maxStock": 100,
+        "month": 2,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 45,
+        "maxStock": 100,
+        "month": 6,
+        "price": 77
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 40,
+        "maxStock": 100,
+        "month": 4,
+        "price": 80
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 91,
+        "maxStock": 100,
+        "month": 1,
+        "price": 54
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 61,
+        "maxStock": 100,
+        "month": 2,
+        "price": 69
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 49,
+        "maxStock": 100,
+        "month": 0,
+        "price": 75
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 71,
+        "maxStock": 100,
+        "month": 10,
+        "price": 64
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 5,
+        "maxStock": 100,
+        "month": 5,
+        "price": 97
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 1,
+        "maxStock": 100,
+        "month": 5,
+        "price": 99
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 42,
+        "maxStock": 100,
+        "month": 4,
+        "price": 79
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 74,
+        "maxStock": 100,
+        "month": 6,
+        "price": 63
+    },
+    {
+        "bestPrice": 100,
+        "inventoryData": 95,
+        "maxStock": 100,
+        "month": 8,
+        "price": 52
+    }
+]
