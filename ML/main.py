@@ -51,7 +51,7 @@ def testing_parameters(model, train, target):
     print("Best parameters set found on development set:", searching.best_params_)
 
 
-def shopify_products(model, products_data):
+def shop_products(model, products_data):
     train_0, train_target_0 = filter_dataset(products_data, ['bestPrice', 'inventoryData', 'maxStock', 'month'])
     result(model, train_0, train_target_0, [[4, 19, 0, 0, 10]])
 
@@ -76,9 +76,9 @@ if __name__ == '__main__':
     #print(data)
     print(data)
     print("\n----------------------- RANDOM FOREST  ---------------------\n")
-    shopify_products(rf, data)
+    shop_products(rf, data)
     print("\n----------------------- NEURAL NETWORK  ---------------------\n")
-    shopify_products(clf, data)
+    shop_products(clf, data)
 
 
 
