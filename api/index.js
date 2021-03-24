@@ -1,21 +1,18 @@
 const express = require('express');
-let path = require('path');
-let bodyParser = require('body-parser');
-let mongoose = require('mongoose');
+const cors = require('cors');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const mongoose = require('mongoose');
 require('dotenv').config();
 
-const cors = require('cors');
 const apiRoutes = require("./api-routes")// Use Api routes in the App
 
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
 app.use(cors());
-
-
-app.use(bodyParser.urlencoded({
-	extended: true
-}));
-app.use(bodyParser.json());
 
 //Database connection
 switch(process.env.NODE_ENV){

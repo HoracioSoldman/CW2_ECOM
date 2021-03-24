@@ -1,9 +1,16 @@
 import React from 'react';
 
+import axios from 'axios'
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
-import {auth, signInWithGoogle} from '../../firebase/firebase.utils.js';
+import { SERVER_URL } from '../../constant';
+import { setCurrentUser } from '../../redux/user/user.actions';
+import { selectCurrentUser } from '../../redux/user/user.selector';
 import './sign-in.styles.scss';
+
 
 class SignIn extends React.Component{
     constructor(props){
@@ -11,7 +18,9 @@ class SignIn extends React.Component{
 
         this.state ={
             email: '',
-            password: ''
+            password: '',
+            info: {type: '', msg: ''},
+            loading: false
         }
     }
 
@@ -21,10 +30,51 @@ class SignIn extends React.Component{
         const {email, password} = this.state;
 
         try{
-          await auth.signInWithEmailAndPassword(email, password);
-          this.setState({ email: "", password: "" });
+          this.setState({...this.state, loading: true})
+          const user = {
+            email, password
+          }
+          axios.post(`${SERVER_URL}/users/login`, user)
+          .then(response =>{
+            this.setState({...this.state, loading: false})
+            console.log(response.data)
+            const {message, status, data} = response.data
+            
+            if(status && status === 'success' && data && data.token){
+                //Login successful
+                //save the token
+                localStorage.setItem('token', data.token)
+
+                //save the user into redux
+                this.props.setCurrentUser({...data})
+
+                console.log('Logged in.')
+                this.setState({
+                  email: "",
+                  password: "",
+                  info: {type: 'success', msg: message}
+                });
+
+                //redirection
+            }else if (status && status === 'failure'){
+              this.setState({
+                ...this.state,
+                info: {type: 'failure', msg: message}
+              });
+
+            }
+            
+
+          })
+          
+         
         }catch(error){
           console.log(error)
+          this.setState({
+            ...this.state,
+            info: {type: 'failure', msg: 'An error has occured'},
+            loading: false
+          });
         }
     }
 
@@ -35,9 +85,10 @@ class SignIn extends React.Component{
     }
 
     render(){
+      const {email, password, info, loading} = this.state
         return (
           <div className="sign-in">
-            <h2>I already have an account</h2>
+            <h2>Sign In</h2>
             <span>Sign in with your email and password</span>
 
             <form onSubmit={this.handleSubmit}>
@@ -45,22 +96,28 @@ class SignIn extends React.Component{
                 name="email"
                 type="email"
                 handleChange={this.handleChange}
-                value={this.state.email}
-                label="email"
+                value={email}
+                label="Email"
                 required
               />
 
               <FormInput
                 name="password"
                 type="password"
-                value={this.state.password}
+                value={password}
                 handleChange={this.handleChange}
-                label="password"
+                label="Password"
                 required
               />
+              <div >
+                <p className={info.type ? info.type === 'success' ? 'success' : 'danger' : '' }> {info.msg} </p>
+              </div>
               <div className='buttons' >
-                <CustomButton type="submit"> Sign In </CustomButton>
-                <CustomButton onClick={signInWithGoogle} isGoogleSignIn > Sign in with Google </CustomButton>
+                <CustomButton type="submit" disabled={loading}> Sign In </CustomButton>
+                {/* <CustomButton onClick={signInWithGoogle} isGoogleSignIn > Sign in with Google </CustomButton> */}
+              </div>
+              <div >
+                <p className="">Or are you new to Sneakerbeast? <a href="#" onClick={ev=> {this.props.update('up')}}>Sign Up</a> </p>
               </div>
             </form>
           </div>
@@ -68,4 +125,12 @@ class SignIn extends React.Component{
     }
 }
 
-export default SignIn;
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser
+}) 
+
+const mapDispatchToProps = dispatch =>({
+  setCurrentUser: user => dispatch(setCurrentUser(user))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(SignIn);

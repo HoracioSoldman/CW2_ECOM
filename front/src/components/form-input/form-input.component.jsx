@@ -17,4 +17,20 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
     </div>
 );
 
+export const FormTextarea = ({ handleChange, label, ...otherProps }) => (
+    <div className='group'>
+        <textarea className='form-input' onChange={handleChange} {...otherProps} rows="5"></textarea>
+        {label ? (
+            <label
+                className={`${
+                    otherProps.value.length ? 'shrink' : ''
+                    } form-input-label`}
+            >
+                {label}
+            </label>
+        ) : null}
+    </div>
+);
+
+
 export default FormInput;
