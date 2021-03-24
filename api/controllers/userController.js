@@ -60,7 +60,7 @@ exports.new = function (req, res) {
 
 exports.login = (req, res)=>{
 	const {email, password} = req.body
-	console.log(req.body)
+	
 	User.findOne({email},
 	   (err, usr)=>{
 	  if(err){

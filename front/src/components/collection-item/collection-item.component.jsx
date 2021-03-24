@@ -1,15 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import {withRouter} from 'react-router-dom';
 import CustomButton from '../custom-button/custom-button.component.jsx';
 import { addItem }from '../../redux/cart/cart.actions.js';
 
 import './collection-item.styles.scss';
 
 
-const CollectionItem = ({item, addItem}) => {
+const CollectionItem = ({item, addItem, history}) => {
     const {name, price, imageUrl} = item;
+    const p = JSON.stringify(item)
+    
     return (
-      <div className="collection-item">
+      <div className="collection-item" onClick={ev=> { localStorage.setItem('product', p); history.push(`/product/${item.id}`)}}>
         <div
           className="image"
           style={{
@@ -21,7 +24,7 @@ const CollectionItem = ({item, addItem}) => {
           <span className="price"> {price} </span>
         </div>
 
-        <CustomButton onClick={ () =>  addItem(item)} inverted>Add to cart</CustomButton>
+        <CustomButton onClick={ ev => { ev.stopPropagation(); addItem(item)}} inverted>Add to cart</CustomButton>
       </div>
     );
 }
@@ -30,4 +33,4 @@ const mapDispatchToProps = dispatch => ({
     addItem: item => dispatch(addItem(item))
 })
 
-export default connect(null, mapDispatchToProps) (CollectionItem);
+export default connect(null, mapDispatchToProps) (withRouter(CollectionItem));

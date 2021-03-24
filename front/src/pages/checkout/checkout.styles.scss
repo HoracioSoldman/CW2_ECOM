@@ -29,3 +29,24 @@
     font-size: 36px;
   }
 }
+
+.btn-control {
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-submit {
+  color: #fff;
+}
+
+.btn-admin {
+  margin-right: 0 !important;
+  margin-left: 4rem ;
+  padding: 1rem 1.5rem;
+}
+
+p.info {
+  font-size: 1.5rem;
+  color: blue;
+}

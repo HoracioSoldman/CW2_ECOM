@@ -1,18 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { clearItemFromCart, addItem, removeItem } from '../../redux/cart/cart.actions.js'
 
 import './checkout-item.styles.scss';
 // import { removeItemFromCart } from '../../redux/cart/cart.utils.js';
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
-  const { name, imageUrl, price, quantity } = cartItem;
+  const { name, imageUrl, price, quantity, id } = cartItem;
   return (
     <div className="checkout-item">
       <div className="image-container">
         <img src={imageUrl} alt="item" />
       </div>
-      <span className="name">{name}</span>
+      <span className="name" onClick={ev=>{localStorage.setItem('product', JSON.stringify(cartItem))}}><Link to={`/product/${id}`}>{name}</Link></span>
       <span className="quantity">
         <div className="arrow" onClick={() => removeItem(cartItem)} >&#10094;</div>
         <span className="value">{quantity}</span>
