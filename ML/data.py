@@ -104,6 +104,7 @@ def create_kpi_simplify():
         "bestPrice": "",
         "inventoryData": "",
         "maxStock": "",
+		"intrest": "",
         "month": 0,
         "price": ""
     }
