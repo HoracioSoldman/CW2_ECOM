@@ -59,26 +59,15 @@ def scenario_random(data_categories, category_name):
 	shoe = category_list["results"][shoe_nbr]["name"]
 
 	mostLikedCategory = categories[random.randint(0, len(categories) - 1)]
-	whatAlreadyHas = []
-	categoryHistory = []
+	whatAlreadyHas = categories[random.randint(0, len(categories) - 1)]
+	categoryHistory = categories[random.randint(0, len(categories) - 1)]
 
-
-
-	categories_nbr = random.randint(0, len(categories) - 1)
-	for i in range(categories_nbr):
-		brand = categories[random.randint(0, len(categories) - 1)]
-		if brand not in whatAlreadyHas:
-			whatAlreadyHas.append(brand)
-
-	categories_nbr = random.randint(0, len(categories) - 1)
-	for i in range(categories_nbr):
-		brand = categories[random.randint(0, len(categories) - 1)]
-		if brand not in whatAlreadyHas:
-			categoryHistory.append(brand)
 
 	country = countries_list_pre_processing[country]
 	category_name = categories_pre_processing[category_name]
 	mostLikedCategory = categories_pre_processing[mostLikedCategory]
+	whatAlreadyHas = categories_pre_processing[whatAlreadyHas]
+	categoryHistory = categories_pre_processing[categoryHistory]
 
 	return name, gender, shoeSize, country, email, category_name, shoe, mostLikedCategory, whatAlreadyHas, categoryHistory
 

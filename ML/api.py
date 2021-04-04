@@ -1,11 +1,20 @@
 import flask
+from flask import request
+import main
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
+machine_learning = main.machine_learning()
 
-@app.route('/', methods=['GET'])
+
+@app.route('/predict', methods=['POST'])
 def home():
-    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
+	country = request.form.get('country')
+	gender = request.form.get('gender')
+	age = request.form.get('age')
+	mostLikedCategory = request.form.get('mostLikedCategory')
+	data_predict = [country, gender, age, mostLikedCategory]
+	return str(machine_learning.predict(data_predict))
 
 app.run()
