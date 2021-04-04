@@ -1,84 +1,67 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import cross_val_score
-from sklearn.neural_network import MLPRegressor
+from sklearn.ensemble import RandomForestClassifier
 import data
 import pandas
-import numpy as np
-import random
-from sklearn.model_selection import GridSearchCV
-from sklearn.preprocessing import StandardScaler
+import json
+from sklearn.preprocessing import LabelEncoder
 
 
-def compute_regression():
-    return LogisticRegression(multi_class="multinomial", max_iter=100000)
+def load_data():
+	with open('ML/data/data.json') as f:
+		data = json.load(f)
+	return data
 
 
-def filter_dataset(data_set, train_parameters):
-    train_target = data_set[['price']]
-    train_x = data_set[train_parameters]
-    return train_x, train_target
+def filter_dataset(data_set, predict_class, train_parameters):
+	train_target = data_set[[predict_class]]
+	train_x = data_set[train_parameters]
+	return train_x, train_target
 
 
-def result(model, train, target, product):
-    #testing_parameters(model, train, target)
-    #exit()
-    regressor = model.fit(train, target)
-    print("\nScore of model : ", regressor.score(train, target), "\n")
+def result(model, train, target, user):
+	regressor = model.fit(train, target)
+	print("\nScore of model : ", regressor.score(train, target), "\n")
+
+	print("\nThe category chosen : ", regressor.predict(user), "\n")
 
 
-def all_data(model, data, target_price):
-    train_0, train_target_0 = filter_dataset(data, ['inventoryData', "bestPrice", "maxStock", "month"])
-    result(model, train_0, train_target_0, target_price)
+def predict_category(model, dataset):
+	#le = LabelEncoder()
+	#dataset['categoryChosen'] = le.fit_transform(dataset['categoryChosen'])
+	#dataset['mostLikedCategory'] = le.fit_transform(dataset['mostLikedCategory'])
+	# dataset['categoryHistory'] = le.fit_transform(dataset['categoryHistory'])
+	#dataset['country'] = le.fit_transform(dataset['country'])
+
+	print(dataset)
+
+	print('------------------------DATASET------------------------')
+
+	data_predict = ['FRA', 0, 21, 'NIKE']
+	data_predict = data_pre_processing(data_predict)
+
+	print(data_predict)
 
 
-def start_scenario(model):
-    print("\n------------------ ALL DATASET ---------------\n")
-    all_data(model, data, [[10, 100, 100, 11]])
-    print("\n------------------ RANDOM DATASET ---------------\n")
+	train_0, train_target_0 = filter_dataset(dataset, 'categoryChosen',
+	                                         ['country', 'gender', 'age', 'mostLikedCategory'])
+	result(model, train_0, train_target_0, [data_predict])
 
 
-def testing_parameters(model, train, target):
-    param_grid = [
-        {
-            'activation': ['identity', 'logistic', 'tanh', 'relu'],
-            'solver': ['lbfgs', 'sgd', 'adam'],
-            'max_iter': [10, 100, 1000]
-        }
-    ]
-    searching = GridSearchCV(model, param_grid, cv=3, scoring='accuracy')
-    searching.fit(train, target)
-    print("Best parameters set found on development set:", searching.best_params_)
-
-
-def shop_products(model, products_data):
-    train_0, train_target_0 = filter_dataset(products_data, ['bestPrice', 'inventoryData', 'maxStock', 'month'])
-    result(model, train_0, train_target_0, [[4, 19, 0, 0, 10]])
-
-
-def get_price_random_forest(model, previous_orders, new_product):
-    print(previous_orders)
-    train, target = filter_dataset(previous_orders, ['month', 'basket_price', 'isPandemicCrisis', 'isLoyal', 'customer_type', "trends", "isLimitedEdition"])
-    model.fit(train, target)
-    price = model.predict(new_product)
-    return price
+def data_pre_processing(data):
+	countries_list = {"FRA": 0, "DEU": 1, "GBR": 2, "ITA": 3, "ESP": 4, "BEL": 5}
+	categories = {'AIR JORDAN': 0, 'ASICS': 1, 'JORDAN': 2, 'CONVERSE': 3, 'NEW BALANCE': 4, 'NIKE': 5, 'REEBOK': 6,
+	              'UNDER ARMOUR': 6, 'VANS': 7, 'ADIDAS': 8}
+	data[0] = countries_list[data[0]]
+	data[3] = categories[data[3]]
+	return data
 
 
 if __name__ == '__main__':
-    dataset = data.create_kpi_simplify()
-    rf = RandomForestRegressor(n_estimators=1000, random_state=0)
-#clf = MLPClassifier(solver='adam', alpha=1e-10, random_state=0, hidden_layer_sizes=(4, 5))
-    #clf = MLPRegressor(solver='lbfgs', max_iter=1000, random_state=1, tol=0.1, n_iter_no_change=20)
-    #clf = MLPRegressor(solver='lbfgs', hidden_layer_sizes=[100], max_iter=2000000)
-    clf = MLPRegressor(solver='lbfgs', random_state=0)
-    print("--------------------------------------------------------------")
-    data = pandas.DataFrame(dataset)
-    #print(data)
-    print(data)
-    print("\n----------------------- RANDOM FOREST  ---------------------\n")
-    shop_products(rf, data)
-    print("\n----------------------- NEURAL NETWORK  ---------------------\n")
-    shop_products(clf, data)
-
-
-
+	# data_categories = data.load_data()
+	# dataset = data.create_kpi(data_categories)
+	dataset = load_data()
+	rf = RandomForestClassifier()
+	print("--------------------------------------------------------------")
+	data = pandas.DataFrame(dataset)
+	print(data)
+	print("\n----------------------- RANDOM FOREST  ---------------------\n")
+	predict_category(rf, data)
