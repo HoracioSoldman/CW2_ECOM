@@ -7,19 +7,19 @@ import './checkout-item.styles.scss';
 // import { removeItemFromCart } from '../../redux/cart/cart.utils.js';
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
-  const { name, imageUrl, price, quantity, id } = cartItem;
+  const { name, image, retailPrice, quantity, _id } = cartItem;
   return (
     <div className="checkout-item">
       <div className="image-container">
-        <img src={imageUrl} alt="item" />
+        <img src={image.original} alt="item" />
       </div>
-      <span className="name" onClick={ev=>{localStorage.setItem('product', JSON.stringify(cartItem))}}><Link to={`/product/${id}`}>{name}</Link></span>
+      <span className="name" onClick={ev=>{localStorage.setItem('product', JSON.stringify(cartItem))}}><Link to={`/product/${_id}`}>{name}</Link></span>
       <span className="quantity">
         <div className="arrow" onClick={() => removeItem(cartItem)} >&#10094;</div>
         <span className="value">{quantity}</span>
         <div className="arrow" onClick={() => addItem(cartItem)}>&#10095;</div>
       </span>
-      <span className="price">{price}</span>
+      <span className="price">{retailPrice}</span>
       <div className="remove-button" onClick={() => clearItem(cartItem)}>
         &#10005;
       </div>

@@ -47,4 +47,7 @@ export const Wrapper = styled.div`
     .btn-admin {
         padding: 1rem 1.5rem;
     }
+    .product-details p {
+        line-height: 3rem;
+    }
 `

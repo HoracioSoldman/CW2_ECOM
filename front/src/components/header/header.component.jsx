@@ -24,11 +24,11 @@ const Header = ({ currentUser, setCurrentUser, hidden }) => {
     }
     return <div className="header">
       <Link className="logo-container" to="/">
-        <Logo className="logo" />
+        <img src="logo.jpeg" alt="Sneakerbeast"/>
       </Link>
 
       <div className="options">
-        <Link className="option" to="/shop">
+        <Link className="option" to="/">
           SHOP
         </Link>
 

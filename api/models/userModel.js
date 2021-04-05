@@ -12,7 +12,6 @@ var userSchema = mongoose.Schema({
 		type: String,
 		required: true
 	},
-	phone: String,
 	create_date: {
 		type: Date,
 		default: Date.now
@@ -25,6 +24,12 @@ var userSchema = mongoose.Schema({
 	profile: String,
 	password: { type: String, required: true },
     salt: { type: String },
+    gender: { type: String },
+	age: {type: Number},
+	size: {type: Number},
+	whatAlreadyHas: {type: Array},
+	chosenCategories: {type: Array},
+	chosenShoes: {type: String, default: ""}
 	
 });
 

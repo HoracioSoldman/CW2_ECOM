@@ -23,6 +23,7 @@ For npm
 ### 3. Database 
 This project uses mongodb. Therefore, make sure to have it running in your environment otherwise [Install MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials) in your local environment.
 
+
 ### 4. Environment configuration
 Rename ``.env_copy`` file into ``.env``. Then change the values of the variables there according to your local environment.
 
@@ -50,6 +51,8 @@ If you want to start the API
     yarn
     yarn start
 ```
+
+Next, make a __GET__ request to the following link, to import default products collection: [http://localhost:4101/api/product/import](http://localhost:4101/api/product/import) 
 
 In terms of stack, we are using : Express, NodeJS and MongoDB
 

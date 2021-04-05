@@ -21,14 +21,12 @@ const Product = ({addItem, history}) =>{
             <div className="product-container">
                 <div className="photo-preview">
                     <h2>{product.name}</h2>
-                    <img src={product.imageUrl} alt={product.name}/>
+                    <img src={product.image.original} alt={product.name}/>
                     
                 </div>
                 <div className="product-details">
-                    <h2>More details about the product</h2>
-                    <p>Ipsum cupidatat laborum ut mollit ullamco excepteur in magna incididunt minim ullamco commodo est.</p>
-                    <p>Elit sunt anim aliqua do incididunt adipisicing et eiusmod eu ex.</p>
-                    <p>Consectetur non et amet quis nisi cupidatat qui. Quis officia deserunt velit ad et duis mollit anim in anim commodo duis. Enim pariatur in consectetur ad voluptate cupidatat incididunt ex occaecat et elit ullamco est. Sint amet excepteur aliquip commodo tempor. Dolor irure aliqua sunt eiusmod consectetur irure cillum esse nulla culpa voluptate eu.</p>
+                    <h2>{product.colorway}</h2>
+                    <p>{product.story}</p>
                     
                     <div className="btn-control">
                         <button className="btn-admin btn-default" onClick={ ev => { addItem(product)}}>Add to cart</button>

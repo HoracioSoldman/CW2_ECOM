@@ -8,20 +8,20 @@ import './collection-item.styles.scss';
 
 
 const CollectionItem = ({item, addItem, history}) => {
-    const {name, price, imageUrl} = item;
+    const {name, retailPrice, image} = item;
     const p = JSON.stringify(item)
     
     return (
-      <div className="collection-item" onClick={ev=> { localStorage.setItem('product', p); history.push(`/product/${item.id}`)}}>
+      <div className="collection-item" onClick={ev=> { localStorage.setItem('product', p); history.push(`/product/${item._id}`)}}>
         <div
           className="image"
           style={{
-            backgroundImage: `url(${imageUrl})`
+            backgroundImage: `url(${image.original})`
           }}
         />
         <div className="collection-footer">
           <span className="name"> {name} </span>
-          <span className="price"> {price} </span>
+          <span className="price fw-500"> £{retailPrice ? retailPrice : 0} </span>
         </div>
 
         <CustomButton onClick={ ev => { ev.stopPropagation(); addItem(item)}} inverted>Add to cart</CustomButton>

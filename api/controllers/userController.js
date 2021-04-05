@@ -21,9 +21,9 @@ exports.index = function (req, res) {
 };
 
 exports.new = function (req, res) {
-	const {name, email, phone, password} = req.body
+	const {name, email, gender, size, age, whatAlreadyHas, chosenCategories, password} = req.body
 	let user = new User({
-		name, email, phone, password
+		name, email, size, age, gender, whatAlreadyHas, chosenCategories, password
 	});
 	
 	
@@ -35,7 +35,7 @@ exports.new = function (req, res) {
 			if (usr)
 				res.json({
 					message: 'THis email address has been already used.',
-					data: {},
+					data: usr,
 					status: "failure"
 				});
 			else 
