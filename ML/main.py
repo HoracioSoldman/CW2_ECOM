@@ -20,6 +20,27 @@ class machine_learning():
 		print("\n----------------------- RANDOM FOREST  ---------------------\n")
 		self.rf = RandomForestClassifier()
 		data = pandas.DataFrame(dataset)
+
+
+		tmp_country_df = pandas.get_dummies(data['country'])
+		self.country_names = list(tmp_country_df)
+		data = data.drop('country', axis=1)
+		data = data.join(tmp_country_df)
+
+		data['mostLikedCategory'] = data.apply(lambda row: row['mostLikedCategory'] + "_liked", axis=1)
+		tmp_categories_liked_df = pandas.get_dummies(data['mostLikedCategory'])
+		self.mostLikedCategory_names = list(tmp_categories_liked_df)
+		data = data.drop('mostLikedCategory', axis=1)
+		data = data.join(tmp_categories_liked_df)
+
+		data['whatAlreadyHas'] = data.apply(lambda row: row['whatAlreadyHas'] + "_has", axis=1)
+		tmp_already_has_df = pandas.get_dummies(data['whatAlreadyHas'])
+		self.already_has_names = list(tmp_already_has_df)
+		data = data.drop('whatAlreadyHas', axis=1)
+		data = data.join(tmp_already_has_df)
+
+		print(data)
+
 		self.start_train(data)
 
 
@@ -38,36 +59,47 @@ class machine_learning():
 		user = self.data_pre_processing(user)
 		category_predicted = self.model.predict([user])
 		print("\nThe category chosen : ", category_predicted, "\n")
-		#TODO Put alpha instead of nbr
 		return category_predicted
 
 
 	def start_train(self, dataset):
-		#le = LabelEncoder()
-		#dataset['categoryChosen'] = le.fit_transform(dataset['categoryChosen'])
-		#dataset['mostLikedCategory'] = le.fit_transform(dataset['mostLikedCategory'])
-		# dataset['categoryHistory'] = le.fit_transform(dataset['categoryHistory'])
-		#dataset['country'] = le.fit_transform(dataset['country'])
-
 
 		print('------------------------DATASET------------------------')
 		print(dataset)
 
-		train_0, train_target_0 = self.filter_dataset(dataset, 'categoryChosen',
-		                                         ['country', 'gender', 'age', 'mostLikedCategory'])
+		#['country', 'gender', 'age', 'mostLikedCategory']
+		features = ['gender', 'age'] + self.country_names + self.mostLikedCategory_names
+		#TODO Add whatAlreadyHas
+
+		print("Feature list : ", features)
+		train_0, train_target_0 = self.filter_dataset(dataset, 'categoryChosen', features)
 		self.train(train_0, train_target_0)
 
 
 	def data_pre_processing(self, data):
-		countries_list = {"FRA": 0, "DEU": 1, "GBR": 2, "ITA": 3, "ESP": 4, "BEL": 5}
-		categories = {'AIR JORDAN': 0, 'ASICS': 1, 'JORDAN': 2, 'CONVERSE': 3, 'NEW BALANCE': 4, 'NIKE': 5, 'REEBOK': 6,
-		              'UNDER ARMOUR': 6, 'VANS': 7, 'ADIDAS': 8}
-		data[0] = countries_list[data[0]]
-		data[3] = categories[data[3]]
+		country = data[2]
+		data.remove(data[2])
+		#mostLikedCategory [3], whatAlreadyHas [4]
+
+		for i in range(len(self.country_names)):
+			if country == self.country_names[i]:
+				data.append(1)
+			else:
+				data.append(0)
+
+		mostLikedCategory = {"NIKE": 0, "JORDAN": 1, "VANS": 1}
+		for i in range(len(self.mostLikedCategory_names)):
+			if self.mostLikedCategory_names[i].replace("_liked", "") in mostLikedCategory:
+				category_name = self.mostLikedCategory_names[i].replace("_liked", "")
+				data.append(mostLikedCategory[category_name])
+			else:
+				data.append(0)
+
+		#TODO Add whatAlreadyHas
 		return data
 
 
 if __name__ == '__main__':
 	machine_learning = machine_learning()
-	data_predict = ['FRA', 0, 21, 'NIKE']
+	data_predict = [0, 21, 'FRA']
 	machine_learning.predict(data_predict)

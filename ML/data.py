@@ -63,11 +63,11 @@ def scenario_random(data_categories, category_name):
 	categoryHistory = categories[random.randint(0, len(categories) - 1)]
 
 
-	country = countries_list_pre_processing[country]
+	#country = countries_list_pre_processing[country]
 	category_name = categories_pre_processing[category_name]
-	mostLikedCategory = categories_pre_processing[mostLikedCategory]
-	whatAlreadyHas = categories_pre_processing[whatAlreadyHas]
-	categoryHistory = categories_pre_processing[categoryHistory]
+	#mostLikedCategory = categories_pre_processing[mostLikedCategory]
+	#whatAlreadyHas = categories_pre_processing[whatAlreadyHas]
+	#categoryHistory = categories_pre_processing[categoryHistory]
 
 	return name, gender, shoeSize, country, email, category_name, shoe, mostLikedCategory, whatAlreadyHas, categoryHistory
 

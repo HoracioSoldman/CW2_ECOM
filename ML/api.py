@@ -14,7 +14,8 @@ def home():
 	gender = request.form.get('gender')
 	age = request.form.get('age')
 	mostLikedCategory = request.form.get('mostLikedCategory')
-	data_predict = [country, gender, age, mostLikedCategory]
+	whatAlreadyHas = request.form.get('whatAlreadyHas')
+	data_predict = [gender, age, country, mostLikedCategory, whatAlreadyHas]
 	return str(machine_learning.predict(data_predict))
 
 app.run()
