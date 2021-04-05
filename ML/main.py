@@ -59,6 +59,7 @@ class machine_learning():
 		user = self.data_pre_processing(user)
 		category_predicted = self.model.predict([user])
 		print("\nThe category chosen : ", category_predicted, "\n")
+
 		return category_predicted
 
 
@@ -68,7 +69,7 @@ class machine_learning():
 		print(dataset)
 
 		#['country', 'gender', 'age', 'mostLikedCategory']
-		features = ['gender', 'age'] + self.country_names + self.mostLikedCategory_names
+		features = ['gender', 'age'] + self.country_names + self.mostLikedCategory_names + self.already_has_names
 		#TODO Add whatAlreadyHas
 
 		print("Feature list : ", features)
@@ -78,8 +79,10 @@ class machine_learning():
 
 	def data_pre_processing(self, data):
 		country = data[2]
-		data.remove(data[2])
-		#mostLikedCategory [3], whatAlreadyHas [4]
+		mostLikedCategory = data[3]
+		whatAlreadyHas = data[4]
+		for i in range(3):
+			data.remove(data[2])
 
 		for i in range(len(self.country_names)):
 			if country == self.country_names[i]:
@@ -87,7 +90,7 @@ class machine_learning():
 			else:
 				data.append(0)
 
-		mostLikedCategory = {"NIKE": 0, "JORDAN": 1, "VANS": 1}
+		#mostLikedCategory = {"NIKE": 0, "JORDAN": 1, "VANS": 1}
 		for i in range(len(self.mostLikedCategory_names)):
 			if self.mostLikedCategory_names[i].replace("_liked", "") in mostLikedCategory:
 				category_name = self.mostLikedCategory_names[i].replace("_liked", "")
@@ -95,11 +98,19 @@ class machine_learning():
 			else:
 				data.append(0)
 
-		#TODO Add whatAlreadyHas
+		for i in range(len(self.already_has_names)):
+			if self.already_has_names[i].replace("_has", "") in whatAlreadyHas:
+				category_name = self.already_has_names[i].replace("_has", "")
+				data.append(whatAlreadyHas[category_name])
+			else:
+				data.append(0)
+
+		print('------------------------PRE-PROCESSING------------------------')
+		print(data)
 		return data
 
 
 if __name__ == '__main__':
 	machine_learning = machine_learning()
-	data_predict = [0, 21, 'FRA']
+	data_predict = [0, 21, "FRA", {"cscs": 1}, {"cscs": 1}]
 	machine_learning.predict(data_predict)
