@@ -7,6 +7,7 @@ import "./homepage.styles.scss";
 const HomePage = () => (
   <div className="homepage">
     <Bestpick />
+    {/* Homepagewith best pick */}
     <Directory />
   </div>
 );

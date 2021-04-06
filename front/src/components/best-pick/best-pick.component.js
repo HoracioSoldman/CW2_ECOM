@@ -136,8 +136,8 @@ const Bestpick = ({ currentUser }) => {
                     </p>
                 </div>
                 <CollectionPreview list={list}/> 
-                </>: <></>
-                // <p style={{textAlign: "center"}}>{reqstate.info.msg}</p>
+                </>: 
+                <p style={{textAlign: "center"}}></p>
             }
         </div>
 }
