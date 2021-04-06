@@ -27,23 +27,14 @@ const Bestpick = ({ currentUser }) => {
 	}
     const categories_names = ['AIR JORDAN', 'ASICS', 'JORDAN', 'CONVERSE', 'NEW BALANCE', 'NIKE', 'REEBOK', 'UNDER ARMOUR', 'VANS', 'ADIDAS']
 	
-    const [reqstate, setreqstate] = useState({info: {type: '', msg: ''}, loading: false, brandTitle: "", brand: ''})
+    const [reqstate, setreqstate] = useState({info: {type: '', msg: ''}, loading: false, brandTitle: "", brand: '', recommended: false})
     const [list, setlist] = useState([])
-
-    const convert_brands_values = arr=>{
-        let formatted = {}
-        
-        arr.forEach((val, i)=>{
-            formatted[categories_names[i]] = val
-        })
-        return JSON.stringify(formatted)
-    }
-
-    useEffect(async() => {
+    
+    useEffect(() => {
         
         localStorage.setItem('redirection', '/')
   
-        if(currentUser){
+        if(currentUser && !reqstate.recommended){
             //go...
             console.log('misy userject:', currentUser)
             const {email} = currentUser
@@ -89,7 +80,7 @@ const Bestpick = ({ currentUser }) => {
     }, [currentUser])
 
     useEffect(() => {
-        
+        if(list.length > 0) return;
         axios.post(`${SERVER_URL}/product/branded`, {brand: reqstate.brand})
         .then(response =>{
             console.log(response.data)
@@ -139,14 +130,14 @@ const Bestpick = ({ currentUser }) => {
                     <h2 style={sectionTitleCss}>Best pick for you</h2>
                     <p>
                         {
-                            !currentUser && 
-                            <span>Please <Link to={'/signin'}>SIGN IN</Link> to see the most relevent pick for you</span>
+                            currentUser ? reqstate.brand ? <Link to={`/shop/${reversed_brands[reqstate.brand]}`}>View All</Link> : <span></span>
+                            : <span>Please <Link to={'/signin'}>SIGN IN</Link> to see the most relevent pick for you</span>
                         }
                     </p>
                 </div>
                 <CollectionPreview list={list}/> 
-                </>: 
-                <p style={{textAlign: "center"}}>{reqstate.info.msg}</p>
+                </>: <></>
+                // <p style={{textAlign: "center"}}>{reqstate.info.msg}</p>
             }
         </div>
 }

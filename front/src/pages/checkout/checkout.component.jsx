@@ -109,7 +109,7 @@ const CheckoutPage = ({cartItems, clearItem, total, currentUser, setCurrentUser}
           <span>TOTAL: £{total}</span>
           {
             total > 0 && ( currentUser ?
-              <button className="btn-admin btn-secondary btn-submit" disabled={loading} onClick={ ev => { onPay()}}>{loading ? <Loading text={'Processing...'}/> : 'Pay Now'}</button>
+              <button className="btn-admin btn-secondary btn-submit" disabled={loading} onClick={ ev => { onPay()}}>{loading ? <span>Processing...</span> : 'Pay Now'}</button>
               : <p onClick={redirection}>Please <Link to={'/signin'}>SIGN IN</Link> before making a payment.</p>)
           }
           
