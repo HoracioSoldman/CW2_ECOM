@@ -29,6 +29,9 @@ router.route('/users/:userId')
 
 router.route('/users/purchased')
 	.post(userController.purchased);
+
+router.route('/users/recommend')
+	.post(userController.recommend);
 //Contact
 
 router.route('/contact')

@@ -13,6 +13,18 @@ const Bestpick = ({ currentUser }) => {
     const brands_dico = [
 		"air-jordan", "asics", "jordan", "converse", "new-balance", "nike", "reebok", "under-armour", "vans", "adidas"
     ]
+    const reversed_brands = {
+		"Air Jordan":"air-jordan",
+		"adidas":"adidas",
+		"ASICS":"asics",
+		"Jordan": "jordan" ,
+		"Converse": "converse",
+		"New Balance": "new-balance",
+		"Nike": "nike",
+		"Reebok": "reebok",
+		"Under Armour": "under-armour",
+		"Vans": "vans"
+	}
     const categories_names = ['AIR JORDAN', 'ASICS', 'JORDAN', 'CONVERSE', 'NEW BALANCE', 'NIKE', 'REEBOK', 'UNDER ARMOUR', 'VANS', 'ADIDAS']
 	
     const [reqstate, setreqstate] = useState({info: {type: '', msg: ''}, loading: false, brandTitle: "", brand: ''})
@@ -32,30 +44,32 @@ const Bestpick = ({ currentUser }) => {
         localStorage.setItem('redirection', '/')
   
         if(currentUser){
-            //alefaaa...
+            //go...
             console.log('misy userject:', currentUser)
-            const {country, gender, age, size, chosenCategories, whatAlreadyHas} = currentUser
-            const userdata = {
-                country, gender, age, mostLikedCategory: convert_brands_values(chosenCategories),
-                whatAlreadyHas: convert_brands_values(whatAlreadyHas)
-            }
-            console.log(userdata)
+            const {email} = currentUser
             
-            // axios.post(`${SERVER_ML_URL}/predict`, userdata)
-            axios({
-                method: 'post',
-                url: `${SERVER_ML_URL}/predict`,
-                headers: { 'Content-Type': 'application/json' }, 
-                data: JSON.stringify(userdata)
-              })
+            axios.post(`${SERVER_URL}/users/recommend`, {email})
             .then(response =>{
                 console.log(response.data)
-                
+                const {message, status, data, brand} = response.data
+
                 setreqstate({
-                    ...reqstate,
+                    ...reqstate, brand,
                     loading: false
                 });
             
+                if(status && status === 'success' && data && brand){
+                    let temp_list = data.filter((sh, i)=>i<4)
+                    setlist([...temp_list])
+                    setreqstate({...reqstate, brandTitle: brand})
+                    console.log(data)
+                }else if (status && status === 'failure'){
+                    setreqstate({
+                        ...reqstate,
+                        info: {type: 'failure', msg: message},
+                        loading: false
+                    });
+                }
             })
             .catch(error=>{
                 console.error(error);
@@ -75,13 +89,14 @@ const Bestpick = ({ currentUser }) => {
     }, [currentUser])
 
     useEffect(() => {
+        
         axios.post(`${SERVER_URL}/product/branded`, {brand: reqstate.brand})
         .then(response =>{
             console.log(response.data)
             const {message, status, data, brand} = response.data
 
             setreqstate({
-                ...reqstate,
+                ...reqstate, brand,
                 loading: false
             });
            
@@ -124,7 +139,7 @@ const Bestpick = ({ currentUser }) => {
                     <h2 style={sectionTitleCss}>Best pick for you</h2>
                     <p>
                         {
-                            currentUser ? <Link to={`/shop/${reqstate.brand}`}>View All</Link> : 
+                            !currentUser && 
                             <span>Please <Link to={'/signin'}>SIGN IN</Link> to see the most relevent pick for you</span>
                         }
                     </p>

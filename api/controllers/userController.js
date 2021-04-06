@@ -1,9 +1,12 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const config = require('../config');
-const axios = require('axios')
+const axios = require('axios');
+const qs = require('querystring');
+
 // Import user model
 User = require('../models/userModel');// Handle index actions
+Product = require('../models/productModel');// Handle index actions
 
 exports.index = function (req, res) {
 	User.get(function (err, users) {
@@ -151,20 +154,169 @@ exports.purchased =  (req, res)=> {
 	})
 }
 
-// exports.recommend = (req, res)=>{	
+exports.recommend = (req, resp)=>{	
 
-// 	axios
-// 	.post('/todos', {
-// 		todo: 'Buy the milk',
-// 	})
-// 	.then((res) => {
-// 		console.log(`statusCode: ${res.statusCode}`)
-// 		console.log(res)
-// 	})
-// 	.catch((error) => {
-// 		console.error(error)
-// 	})
-// }
+	const {email} = req.body
+	User.findOne({email},
+		(err, usr)=>{
+	   if(err){
+			resp.status(200).send({ 
+				data: {},
+				status: "failure",  
+				message: err.message 
+			});
+		
+	   }
+	   else {
+		 if(usr){
+			const user_data = exports.format_user_data(usr)
+			const config = {
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				}
+			};
+			const categories_names = ["Air Jordan", 'ASICS', 'Jordan', 'Converse', 'New Balance', 'Nike', 'Reebok', 'Under Armour', 'Vans', "adidas"]
+		
+			axios.post('http://localhost:4102/predict', qs.stringify(user_data), config)
+			.then((res) => {
+				console.log('PREDICTED BRAND: ', res.data);
+				const brand = categories_names[res.data[0]]
+
+				Product.find({brand}, (err, shoes)=>{
+						if(err){
+							resp.status(200).send({ 
+								data: {},
+								status: "failure",  
+								message: err.message 
+							});
+						}
+						else resp.json({
+							status: "success",
+							message: `List of ${brand} shoes.`,
+							data: shoes,
+							brand
+						});
+					})
+
+			}).catch((err) => {
+				console.error(err);
+				console.log(err);
+				resp.send(err)
+			});
+		 }else {
+			resp.status(200).send({ 
+				data: {},
+				status: "failure",  
+				message: 'Invalid email!' 
+			});
+		 
+		 }
+		}
+	})
+
+	// const data = {
+	// 	age: 27,
+	// 	country: "GBR",
+	// 	gender: 1,
+	// 	mostLikedCategory: JSON.stringify({"AIR JORDAN":0,"ASICS":0,"JORDAN":1,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":0,"ADIDAS":0}),
+	// 	whatAlreadyHas: JSON.stringify({"AIR JORDAN":1,"ASICS":1,"JORDAN":0,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":1,"ADIDAS":1})
+	// };
+
+	// // set the headers
+	// const config = {
+	// 	headers: {
+	// 		'Content-Type': 'application/x-www-form-urlencoded'
+	// 	}
+	// };
+
+
+	// axios.post('http://localhost:4102/predict', qs.stringify(data), config)
+    // .then((res) => {
+    //     console.log(`Status: ${res.status}`);
+    //     console.log('Body: ', res.data);
+
+	// 	// const categories_names = ['AIR JORDAN', 'ASICS', 'JORDAN', 'CONVERSE', 'NEW BALANCE', 'NIKE', 'REEBOK', 'UNDER ARMOUR', 'VANS', 'ADIDAS']	
+	
+	// 	// Product.find({brand: formatted_brand}, (err, shoes)=>{
+	// 	// 	if(err){
+	// 	// 	  res.status(500).send(err);
+	// 	// 	}
+	// 	// 	else res.json({
+	// 	// 		status: "success",
+	// 	// 		message: `List of ${formatted_brand} shoes.`,
+	// 	// 		data: shoes,
+	// 	// 		brand: formatted_brand
+	// 	// 	});
+	// 	// })
+
+	// 	resp.send(res.data)
+    // }).catch((err) => {
+    //     console.error(err);
+	// 	console.log(err);
+	// 	resp.send(err)
+    // });
+
+
+
+	// const request = require('request');
+	// const options = {
+	// 	url: 'http://localhost:4102/predict',
+	// 	form: {
+	// 			age: 27,
+	// 			country: "GBR",
+	// 			gender: "M",
+	// 			mostLikedCategory: {"AIR JORDAN":0,"ASICS":0,"JORDAN":1,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":0,"ADIDAS":0},
+	// 			whatAlreadyHas: {"AIR JORDAN":1,"ASICS":1,"JORDAN":0,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":1,"ADIDAS":1}
+	// 		}
+	// };
+	
+	// request.post(options, (err, resp, body) => {
+	// 	if (err) {
+	// 		console.log(err);
+	// 			res.send(err)
+	// 	}else{
+	// 		console.log(resp)
+	// 		console.log(JSON.parse(body));
+	// 			res.send(body)
+	// 	}
+	// });
+	// axios
+	// .post('http://localhost:4102/predict', {
+	// 	age: 27,
+	// 	country: "GBR",
+	// 	gender: "M",
+	// 	mostLikedCategory: {"AIR JORDAN":0,"ASICS":0,"JORDAN":1,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":0,"ADIDAS":0},
+	// 	whatAlreadyHas: {"AIR JORDAN":1,"ASICS":1,"JORDAN":0,"CONVERSE":0,"NEW BALANCE":1,"NIKE":0,"REEBOK":1,"UNDER ARMOUR":0,"VANS":1,"ADIDAS":1}
+	// })
+	// .then((resp) => {
+		
+	// 	console.log(resp)
+	// 	res.send(resp)
+	// })
+	// .catch((error) => {
+	// 	console.error(error)
+	// 	res.send(error)
+	// })
+}
+
+exports.format_user_data = user=> {
+	const convert_brands_values = arr=>{
+		const categories = ['AIR JORDAN', 'ASICS', 'JORDAN', 'CONVERSE', 'NEW BALANCE', 'NIKE', 'REEBOK', 'UNDER ARMOUR', 'VANS', 'ADIDAS']
+        let formatted = {}
+        
+        arr.forEach((val, i)=>{
+            formatted[categories[i]] = val
+        })
+        return JSON.stringify(formatted)
+    }
+
+	const {country, gender, age, size, chosenCategories, whatAlreadyHas} = user
+	const userdata = {
+		country, gender: gender === 'M' ? 1 : 0, age, mostLikedCategory: convert_brands_values(chosenCategories),
+		whatAlreadyHas: convert_brands_values(whatAlreadyHas)
+	}
+	return userdata
+}
 
 
 exports.view = function (req, res) {

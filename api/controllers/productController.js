@@ -61,7 +61,7 @@ exports.branded = function (req, res) {
 		return res.json({
 			status: "failure",
 			data: {},
-			message: 'Please specifya  brand.'
+			message: 'Sorry, an error has occured. No brand has been specified.'
 		});
 	
 	const formatted_brand = brands_dico[brand]
