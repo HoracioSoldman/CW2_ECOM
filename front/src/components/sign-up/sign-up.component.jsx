@@ -10,6 +10,7 @@ import { selectCurrentUser } from '../../redux/user/user.selector';
 import { SERVER_URL } from '../../constant';
 import BasicSignup from './basic/basic.component';
 import Preference from './preference/preference.component';
+import { withRouter } from 'react-router';
 
 class SignUp extends React.Component{
     constructor(){
@@ -47,6 +48,8 @@ class SignUp extends React.Component{
                   console.log('Signed Up & Logged in.')
                  
                   //redirection
+                  const redirection = localStorage.getItem('redirection')
+                  this.props.history.push(redirection)
               }else if (status && status === 'failure'){
                 this.setState({
                   ...this.state,
@@ -126,4 +129,4 @@ const mapDispatchToProps = dispatch =>({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignUp);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(SignUp));

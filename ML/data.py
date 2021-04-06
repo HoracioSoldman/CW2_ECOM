@@ -1,6 +1,5 @@
 import json
 import random
-import pycountry
 
 names_list_man = ["Nicolas", "Horacio", "Jamie", "Josh", "Simon", "Harry", "Ryan"]
 names_list_woman = ["Audrey", "Leah", "Emma", "Eva", "Ava", "Diana", "Jade", "Jessica"]

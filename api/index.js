@@ -18,12 +18,12 @@ app.use(cors());
 switch(process.env.NODE_ENV){
 	case 'dev':
 		mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, 
-			{ useNewUrlParser: true, useUnifiedTopology: true}
+			{ useNewUrlParser: true, useUnifiedTopology: false}
 		)
 	break
 	case 'prod':
 		mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}?authSource=admin&w=1`,	
-				{ useNewUrlParser: true, useUnifiedTopology: true}
+				{ useNewUrlParser: true, useUnifiedTopology: false}
 			)
 	break
 }

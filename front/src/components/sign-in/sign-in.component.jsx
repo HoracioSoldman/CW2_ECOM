@@ -10,6 +10,7 @@ import { SERVER_URL } from '../../constant';
 import { setCurrentUser } from '../../redux/user/user.actions';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 import './sign-in.styles.scss';
+import { withRouter } from 'react-router';
 
 
 class SignIn extends React.Component{
@@ -48,13 +49,15 @@ class SignIn extends React.Component{
                 //save the user into redux
                 this.props.setCurrentUser({...data})
 
+
                 console.log('Logged in.')
                 this.setState({
                   email: "",
                   password: "",
                   info: {type: 'success', msg: message}
                 });
-
+                const redirection = localStorage.getItem('redirection')
+                this.props.history.push(redirection)
                 //redirection
             }else if (status && status === 'failure'){
               this.setState({
@@ -133,4 +136,4 @@ const mapDispatchToProps = dispatch =>({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignIn);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(SignIn));

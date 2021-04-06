@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def load_data():
-	with open('ML/data/data.json') as f:
+	with open('data/data.json') as f:
 		data = json.load(f)
 	return data
 

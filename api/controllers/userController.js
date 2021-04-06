@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const config = require('../config');
+const axios = require('axios')
 // Import user model
 User = require('../models/userModel');// Handle index actions
 
@@ -21,9 +22,9 @@ exports.index = function (req, res) {
 };
 
 exports.new = function (req, res) {
-	const {name, email, gender, size, age, whatAlreadyHas, chosenCategories, password} = req.body
+	const {name, email, gender, size, age, country, whatAlreadyHas, chosenCategories, password} = req.body
 	let user = new User({
-		name, email, size, age, gender, whatAlreadyHas, chosenCategories, password
+		name, email, size, age, gender, country, whatAlreadyHas, chosenCategories, password
 	});
 	
 	
@@ -45,7 +46,19 @@ exports.new = function (req, res) {
 						//sending email confirmation request
 						res.json({
 							message: 'New user created!',
-							data: user,
+							data: {
+								name: user.name,
+								email: user.email,
+								create_date: user.create_date,
+								token: user.generateJwt(), //an updated token
+								age: user.age,
+								size: user.size,
+								gender: user.gender,
+								country: user.country,
+								whatAlreadyHas: user.whatAlreadyHas,
+								chosenCategories: user.chosenCategories,
+								chosenShoes: user.chosenShoes
+							},
 							status: "success"
 						});
 					else res.json(errr);
@@ -75,9 +88,15 @@ exports.login = (req, res)=>{
 				data: {
 					name: usr.name,
 					email: usr.email,
-					phone: usr.phone,
 					create_date: usr.create_date,
-					token: usr.generateJwt() //an updated token
+					token: usr.generateJwt(), //an updated token
+					age: usr.age,
+					size: usr.size,
+					gender: usr.gender,
+					country: usr.country,
+					whatAlreadyHas: usr.whatAlreadyHas,
+					chosenCategories: usr.chosenCategories,
+					chosenShoes: usr.chosenShoes
 				}
 			});
 		  }else{
@@ -98,6 +117,55 @@ exports.login = (req, res)=>{
 	})
   
   }
+
+exports.purchased =  (req, res)=> {
+	const {email, whatAlreadyHas} = req.body
+
+	User.findOneAndUpdate({email}, {$set:{whatAlreadyHas}},
+		{new: true}, (ee, usr)=>{
+		if(ee){
+			res.status(200).send({
+				data: {},
+				status: "failure",
+				message: 'Unable to update!' });
+		  	
+		}else{
+			res.status(200).json({ 
+				message: 'Update complete!',
+				status: "success",
+				data: {
+					name: usr.name,
+					email: usr.email,
+					create_date: usr.create_date,
+					token: usr.generateJwt(), //an updated token
+					age: usr.age,
+					size: usr.size,
+					gender: usr.gender,
+					country: usr.country,
+					whatAlreadyHas: usr.whatAlreadyHas,
+					chosenCategories: usr.chosenCategories,
+					chosenShoes: usr.chosenShoes
+				}
+			});
+		}
+	})
+}
+
+// exports.recommend = (req, res)=>{	
+
+// 	axios
+// 	.post('/todos', {
+// 		todo: 'Buy the milk',
+// 	})
+// 	.then((res) => {
+// 		console.log(`statusCode: ${res.statusCode}`)
+// 		console.log(res)
+// 	})
+// 	.catch((error) => {
+// 		console.error(error)
+// 	})
+// }
+
 
 exports.view = function (req, res) {
 	User.findById(req.params.userId, function (err, user) {

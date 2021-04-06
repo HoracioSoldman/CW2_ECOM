@@ -26,6 +26,9 @@ router.route('/users/:userId')
 	.delete(userController.delete);
 
 
+
+router.route('/users/purchased')
+	.post(userController.purchased);
 //Contact
 
 router.route('/contact')

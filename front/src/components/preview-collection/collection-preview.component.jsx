@@ -7,7 +7,9 @@ import './collection-preview.styles.scss';
 const CollectionPreview = ({ title, list }) => (
     <div className={'collections-overview'}>
         <div className='collection-preview' >
-            <h1 className='title'>{title.toUpperCase()}</h1>
+            {
+                title && <h1 className='title'>{title.toUpperCase()}</h1>
+            }
             <div className='preview'>
                 {list.map((item) => (
                     <CollectionItem key={item._id} item={item} />

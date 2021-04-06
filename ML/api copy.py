@@ -1,14 +1,14 @@
 import flask
 from flask import request
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import main
 
 app = flask.Flask(__name__)
-CORS(app)
+CORS(app, resources={ r'/*': {'origins': '*'}}, supports_credentials=True)
 
 machine_learning = main.machine_learning()
 
-@app.route('/predict', methods=['OPTIONS', 'POST'])
+@app.route('/predict', methods=['POST', 'OPTIONS'])
 def home():
 	country = request.form.get('country')
 	gender = request.form.get('gender')

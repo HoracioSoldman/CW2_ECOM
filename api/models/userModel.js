@@ -25,6 +25,7 @@ var userSchema = mongoose.Schema({
 	password: { type: String, required: true },
     salt: { type: String },
     gender: { type: String },
+    country: { type: String },
 	age: {type: Number},
 	size: {type: Number},
 	whatAlreadyHas: {type: Array},

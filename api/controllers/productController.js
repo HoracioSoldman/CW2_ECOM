@@ -54,14 +54,13 @@ exports.branded = function (req, res) {
 		"nike": "Nike",
 		"reebok": "Reebok",
 		"under-armour": "Under Armour",
-		"vans": "Vans",
 		"vans": "Vans"
 	}
 	const {brand} = req.body
 	if(!brand)
 		return res.json({
 			status: "failure",
-			data: err,
+			data: {},
 			message: 'Please specifya  brand.'
 		});
 	
@@ -69,7 +68,7 @@ exports.branded = function (req, res) {
 	if(!formatted_brand)
 		return res.json({
 			status: "failure",
-			data: err,
+			data: {},
 			message: `Brand "${brand}" unformatted.`
 		});
 
