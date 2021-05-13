@@ -21,6 +21,6 @@ def home():
 	data_predict = [gender, age, country, eval(mostLikedCategory), eval(whatAlreadyHas)]
 	return str(machine_learning.predict(data_predict))
 
-
-app.run(host='0.0.0.0', port=4102)
+if __name__ == "__main__":
+	app.run(host='0.0.0.0', port=4102)
 # app.run(port=4102)

@@ -11,7 +11,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   return (
     <div className="checkout-item">
       <div className="image-container">
-        <img src={image.original} alt="item" />
+        <img src={image.small} alt="item" />
       </div>
       <span className="name" onClick={ev=>{localStorage.setItem('product', JSON.stringify(cartItem))}}><Link to={`/product/${_id}`}>{name}</Link></span>
       <span className="quantity">
