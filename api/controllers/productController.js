@@ -1,5 +1,5 @@
 const Product = require('../models/productModel');
-const Data = require('../../data/data.json')
+const Data = require('../data/data.json')
 
 exports.importation = (req, res)=>{
 	let shoes = []

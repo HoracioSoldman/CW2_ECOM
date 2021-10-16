@@ -93,3 +93,6 @@ For npm
 You should see messages on the terminal: ``DB connected successfully`` and ``Running Application on port 4101`` 
 #### - Access the app
 Open [http://localhost:4101](http://localhost:4101) on your browser. 
+
+###  - Import products into the database
+Once the app is running, we need to import shoes data into our database. To do so, open [http://localhost:4101/api/product/import](http://localhost:4101/api/product/import) on your browser. This process should be done __only once__. Afterwards, refresh the home page and the recommended products should appear on top of the list.

@@ -176,9 +176,10 @@ exports.recommend = (req, resp)=>{
 				}
 			};
 			const categories_names = ["Air Jordan", 'ASICS', 'Jordan', 'Converse', 'New Balance', 'Nike', 'Reebok', 'Under Armour', 'Vans', "adidas"]
-		
+			
+			axios.post('http://ml-app:4102/predict', qs.stringify(user_data), config)
 			// axios.post('http://localhost:4102/predict', qs.stringify(user_data), config)
-			axios.post('http://198.44.96.161:4102/predict', qs.stringify(user_data), config)
+			// axios.post('http://198.44.96.161:4102/predict', qs.stringify(user_data), config)
 			.then((res) => {
 				console.log('PREDICTED BRAND: ', res.data);
 				const brand = categories_names[res.data[0]]

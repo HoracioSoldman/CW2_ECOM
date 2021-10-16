@@ -17,7 +17,10 @@ app.use(cors());
 //Database connection
 switch(process.env.NODE_ENV){
 	case 'dev':
-		mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, 
+		// mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, 
+		// 	{ useNewUrlParser: true, useUnifiedTopology: false}
+		// )
+		mongoose.connect(`mongodb://mongo:27017/${process.env.DB_NAME}`, 
 			{ useNewUrlParser: true, useUnifiedTopology: false}
 		)
 	break
@@ -40,11 +43,11 @@ const port = process.env.PORT || 4101;
 app.use('/api', apiRoutes);
 
 //Make the built frontend readable 
-app.use(express.static(path.join(__dirname, '../front/build')));
+app.use(express.static(path.join(__dirname, './build')));
 
 
 app.get('**', (req, res) => {
-  return res.sendFile(path.join(__dirname, '../front/build', 'index.html'));
+  return res.sendFile(path.join(__dirname, './build', 'index.html'));
 });
 
 app.listen(port, function () {

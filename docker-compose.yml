@@ -1,0 +1,44 @@
+version: "3"
+services:
+  front-app:
+    image: front-app
+    build: ./front/
+    ports:
+      - "3000:3000"
+    networks:
+      - ecom-app 
+  api-server:
+    image: api-server
+    build: ./api/
+    ports:
+      - "4101:4101"
+    networks:
+      - ecom-app
+    depends_on: 
+      - mongo
+  ml-app:
+    image: ml
+    build: ./ML/
+    volumes: 
+      - ./ML:/usr/local/app
+    ports:
+      - "4102:4102"
+    networks:
+      - ecom-app
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - ecom-app
+    volumes:
+      - mongo-data:/data/db
+
+networks:
+  ecom-app:
+    driver: bridge
+volumes:
+  mongo-data:
+    driver: local
