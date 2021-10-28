@@ -9,9 +9,9 @@ import { selectCurrentUser } from '../../redux/user/user.selector';
 import './checkout.styles.scss';
 import { Link } from 'react-router-dom';
 import Loading from '../../components/extras/Loading';
-import { SERVER_URL } from '../../constant';
 import axios from 'axios';
 import { setCurrentUser } from '../../redux/user/user.actions';
+import { SERVER_URL } from '../../constant';
 
 const CheckoutPage = ({cartItems, clearItem, total, currentUser, setCurrentUser}) => {
   const [info, setInfo] = useState('Your cart is empty!')

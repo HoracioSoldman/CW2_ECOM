@@ -7,10 +7,10 @@ import { createStructuredSelector } from 'reselect';
 
 import { setCurrentUser } from '../../redux/user/user.actions';
 import { selectCurrentUser } from '../../redux/user/user.selector';
-import { SERVER_URL } from '../../constant';
 import BasicSignup from './basic/basic.component';
 import Preference from './preference/preference.component';
 import { withRouter } from 'react-router';
+import { SERVER_URL } from '../../constant';
 
 class SignUp extends React.Component{
     constructor(){

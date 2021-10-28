@@ -64,7 +64,13 @@ exports.branded = function (req, res) {
 			message: 'Sorry, an error has occured. No brand has been specified.'
 		});
 	
-	const formatted_brand = brands_dico[brand]
+	let formatted_brand = brands_dico[brand]
+	if(!formatted_brand){
+		const brand_index = Object.values(brands_dico).indexOf(brand)
+		if(brand_index >= 0){
+			formatted_brand = Object.values(brands_dico)[brand_index]
+		}
+	}
 	if(!formatted_brand)
 		return res.json({
 			status: "failure",

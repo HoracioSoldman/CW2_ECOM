@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const config = require('../config');
+// const config = require('../config');
 
 var userSchema = mongoose.Schema({
 	name: {
@@ -55,7 +55,7 @@ userSchema.methods.verifyPassword = function (password) {
 
 userSchema.methods.generateJwt = function () {
 
-    const tkn = jwt.sign({ _id: this._id }, config.secretKey, 
+    const tkn = jwt.sign({ _id: this._id }, process.env.SECRET_KEY, 
 		{ expiresIn: 86400 }// expires in 24 hours 
 	)
 	this.token = tkn

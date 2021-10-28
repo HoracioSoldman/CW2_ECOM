@@ -2,14 +2,16 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import CollectionsOverview from '../../components/collections-overview/collections-overview.component'
 import axios from 'axios'
-import { SERVER_URL } from '../../constant';
 import CollectionPreview from '../../components/preview-collection/collection-preview.component';
+import { SERVER_URL } from '../../constant';
+
 
 const ShopPage = ({  }) => {
     const {brand} = useParams();
     const [reqstate, setreqstate] = useState({info: {type: '', msg: ''}, loading: false, brandTitle: ""})
     const [list, setlist] = useState([])
     useEffect(() => {
+        
         axios.post(`${SERVER_URL}/product/branded`, {brand})
         .then(response =>{
             console.log(response.data)

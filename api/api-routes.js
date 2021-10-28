@@ -1,16 +1,18 @@
 let router = require('express').Router();
-// Set default API response
-router.get('/', function (req, res) {
-	res.json({
-		status: 'API Its Working',
-		message: 'Welcome to Sneakerbeast crafted with love!'
-	});
-});
 
 // Import contact controller
 const userController = require('./controllers/userController');// Contact routes
 const messageController = require('./controllers/messageController');// Contact routes
 const productController = require('./controllers/productController');// Contact routes
+const jwtHelper = require('./middlewares/jwt.conf');
+
+// Set default API response
+router.get('/', function (req, res) {
+	res.json({
+		status: 'API Is Working',
+		message: 'Welcome to Sneakerbeast!'
+	});
+});
 
 router.route('/users')
 	.get(userController.index)
@@ -18,6 +20,9 @@ router.route('/users')
 
 router.route('/users/login')
 .post(userController.login);
+
+router.route('/users/check')
+.get(jwtHelper.verifyJwtToken, userController.check)
 
 router.route('/users/:userId')
 	.get(userController.view)

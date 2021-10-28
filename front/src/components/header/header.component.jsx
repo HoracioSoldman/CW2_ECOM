@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
+import { SERVER_URL } from '../../constant.js';
+import axios from 'axios';
 
-
-import {auth} from '../../firebase/firebase.utils.js';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component.jsx';
@@ -14,7 +14,40 @@ import { setCurrentUser } from '../../redux/user/user.actions';
 
 import './header.styles.scss';
 
+
 const Header = ({ currentUser, setCurrentUser, hidden }) => {
+
+    useEffect(() => {
+      const token = localStorage.getItem('token')
+      if(token && !currentUser){
+        axios.defaults.headers.post['Content-Type'] = 'application/json'
+        axios.defaults.headers.common['Authorization'] = `Token ${token}`
+        axios.get(`${SERVER_URL}/users/check`)
+          .then(response =>{
+            
+            console.log(response.data)
+            const {message, status, data} = response.data
+            
+            if(status && status === 'success' && data && data.token){
+                //Login successful
+                
+                //save the user into redux
+                setCurrentUser({...data})
+
+                console.log('Logged in.')
+               
+            }else if (status && status === 'failure'){
+              console.log('Error checking the token');
+
+            }
+            
+          })
+          .catch(err=>{
+            console.log(err)
+          })
+       
+      }
+    }, [])
 
     const signOut = ()=> {
       if(window.confirm('Signout Now ?')){

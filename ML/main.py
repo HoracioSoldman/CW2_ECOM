@@ -39,7 +39,7 @@ class machine_learning():
 		data = data.drop('whatAlreadyHas', axis=1)
 		data = data.join(tmp_already_has_df)
 
-		print(data)
+		# print(data)
 
 		self.start_train(data)
 
@@ -51,22 +51,22 @@ class machine_learning():
 
 
 	def train(self, train, target):
-		self.model = self.rf.fit(train, target)
-		print("\nScore of model : ", self.model.score(train, target), "\n")
+		self.model = self.rf.fit(train, target.values.ravel())
+		# print("\nScore of model : ", self.model.score(train, target), "\n")
 
 
 	def predict(self, user):
 		user = self.data_pre_processing(user)
 		category_predicted = self.model.predict([user])
-		print("\nThe category chosen : ", category_predicted, "\n")
+		# print("\nThe category chosen : ", category_predicted, "\n")
 
 		return category_predicted
 
 
 	def start_train(self, dataset):
 
-		print('------------------------DATASET------------------------')
-		print(dataset)
+		# print('------------------------DATASET------------------------')
+		# print(dataset)
 
 		#['country', 'gender', 'age', 'mostLikedCategory']
 		features = ['gender', 'age'] + self.country_names + self.mostLikedCategory_names + self.already_has_names
@@ -105,12 +105,12 @@ class machine_learning():
 			else:
 				data.append(0)
 
-		print('------------------------PRE-PROCESSING------------------------')
-		print(data)
+		# print('------------------------PRE-PROCESSING------------------------')
+		# print(data)
 		return data
 
 
 if __name__ == '__main__':
 	machine_learning = machine_learning()
-	data_predict = [0, 21, "FRA", {"cscs": 1}, {"cscs": 1}]
+	data_predict = [0, 23, "GBR", {"cscs": 1}, {"cscs": 1}]
 	machine_learning.predict(data_predict)

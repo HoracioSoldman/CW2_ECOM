@@ -20,6 +20,11 @@ For npm
 ```bash
    npm install
 ```
+For the Recommender system in the ML folder, please run:
+```bash
+   pip install -r requirements.txt
+```
+
 ### 3. Database 
 This project uses mongodb. Therefore, make sure to have it running in your environment otherwise [Install MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials) in your local environment.
 
@@ -34,17 +39,28 @@ Rename ``.env_copy`` file into ``.env``. Then change the values of the variables
     DB_NAME = ec
     DB_USER = your_database_user
     DB_PWD = your_database_password
+    SECRET_KEY= 
 ```
 The ``NODE_ENV`` should be __dev__ in development development and __prod__ in production. The ``DB_*`` should correspond to your local configurations. 
 
 ## Running the app
 There are two ways of running the application: development and production mode.
 ### 1. Development
-Run both of the backend and frontend separately
+Please run the ML project first, then followed by the backend and the front. Each of the 3 sections must be run in a separate terminal window.
+
+
+#### - ML
+
+Please run the following command.
+
+```bash
+    cd ML
+    python3 api.py
+```
 
 #### - Bakcend
 
-If you want to start the API
+Please run the following command.
 
 ```bash
     cd api
@@ -58,7 +74,7 @@ In terms of stack, we are using : Express, NodeJS and MongoDB
 
 #### -Frontend
 
-If you want to start the Frontend
+Please run the following command.
 
 ```bash
     cd front

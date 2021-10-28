@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const config = require('../config');
+// const config = require('../config');
 const axios = require('axios');
 const qs = require('querystring');
 
@@ -86,7 +86,7 @@ exports.login = (req, res)=>{
 		if(usr){
 		  if(usr.verifyPassword(password)){
 			res.status(200).json({ 
-				message: 'Loged in!',
+				message: 'Logged in!',
 				status: "success",
 				data: {
 					name: usr.name,
@@ -120,6 +120,20 @@ exports.login = (req, res)=>{
 	})
   
   }
+
+
+  exports.check = (req, res)=>{
+    if(!res.locals.the_id) res.status(401).send({message: 'Invalid token !'})
+    User.findOne({_id: res.locals.the_id}, (err, user)=>{
+		if (err)
+			res.send(err);
+		res.json({
+			message: 'Corresponding user ',
+			data: user,
+			status: "success"
+		});
+    });
+}
 
 exports.purchased =  (req, res)=> {
 	const {email, whatAlreadyHas} = req.body
@@ -177,8 +191,8 @@ exports.recommend = (req, resp)=>{
 			};
 			const categories_names = ["Air Jordan", 'ASICS', 'Jordan', 'Converse', 'New Balance', 'Nike', 'Reebok', 'Under Armour', 'Vans', "adidas"]
 			
-			axios.post('http://ml-app:4102/predict', qs.stringify(user_data), config)
-			// axios.post('http://localhost:4102/predict', qs.stringify(user_data), config)
+			// axios.post('http://ml-app:4102/predict', qs.stringify(user_data), config)
+			axios.post('http://localhost:4102/predict', qs.stringify(user_data), config)
 			// axios.post('http://198.44.96.161:4102/predict', qs.stringify(user_data), config)
 			.then((res) => {
 				console.log('PREDICTED BRAND: ', res.data);
@@ -332,6 +346,7 @@ exports.view = function (req, res) {
 	});
 };
 
+
 exports.update = function (req, res) {user.findById(req.params.userId, function (err, user) {
 	if (err)
 		res.send(err);user.name = req.body.name ? req.body.name : user.name;
@@ -362,7 +377,7 @@ exports.delete = function (req, res) {
 
 
 exports.generate_token = (isForActivation, user_id)=> (
-	jwt.sign({ id: user_id }, config.secretKey, 
+	jwt.sign({ id: user_id }, process.env.SECRET_KEY, 
 		isForActivation ? {} : {
 			expiresIn: 86400 // expires in 24 hours
 		}

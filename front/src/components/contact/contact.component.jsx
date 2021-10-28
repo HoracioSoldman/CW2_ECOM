@@ -4,7 +4,6 @@ import axios from 'axios'
 
 import FormInput, {FormTextarea} from '../form-input/form-input.component.jsx';
 import CustomButton from '../custom-button/custom-button.component.jsx';
-
 import { SERVER_URL } from '../../constant';
 
 class Contactpg extends React.Component{

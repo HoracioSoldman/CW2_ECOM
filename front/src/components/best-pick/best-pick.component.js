@@ -3,11 +3,12 @@ import { useParams } from 'react-router';
 import CollectionsOverview from '../../components/collections-overview/collections-overview.component'
 import axios from 'axios'
 import { connect } from 'react-redux';
-import { SERVER_ML_URL, SERVER_URL } from '../../constant';
+
 import CollectionPreview from '../../components/preview-collection/collection-preview.component';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 import { Link } from 'react-router-dom';
+import { SERVER_URL } from '../../constant';
 
 const Bestpick = ({ currentUser }) => {
     const brands_dico = [
@@ -45,7 +46,7 @@ const Bestpick = ({ currentUser }) => {
                 const {message, status, data, brand} = response.data
 
                 setreqstate({
-                    ...reqstate, brand,
+                    ...reqstate,brand,
                     loading: false
                 });
             
@@ -72,7 +73,7 @@ const Bestpick = ({ currentUser }) => {
             })
 
 
-        }else{
+        }else if(!reqstate.brand){
             let brand = brands_dico[Math.floor(Math.random() * 10)]
             setreqstate({...reqstate, brand})
         }
@@ -81,6 +82,12 @@ const Bestpick = ({ currentUser }) => {
 
     useEffect(() => {
         if(list.length > 0) return;
+        if(!reqstate.brand) {
+            console.log('No brand has been specified.')
+            return
+        }
+        
+        
         axios.post(`${SERVER_URL}/product/branded`, {brand: reqstate.brand})
         .then(response =>{
             console.log(response.data)
@@ -130,7 +137,7 @@ const Bestpick = ({ currentUser }) => {
                     <h2 style={sectionTitleCss}>Best pick for you</h2>
                     <p>
                         {
-                            currentUser ? reqstate.brand ? <Link to={`/shop/${reversed_brands[reqstate.brand]}`}>View All</Link> : <span></span>
+                            currentUser ? reqstate.brand ? <Link to={`/shop/${reversed_brands[reqstate.brand] ? reversed_brands[reqstate.brand] : reqstate.brand} `}> View All</Link> : <span></span>
                             : <span>Please <Link to={'/signin'}>SIGN IN</Link> to see the most relevent pick for you</span>
                         }
                     </p>

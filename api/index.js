@@ -17,12 +17,12 @@ app.use(cors());
 //Database connection
 switch(process.env.NODE_ENV){
 	case 'dev':
-		// mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, 
-		// 	{ useNewUrlParser: true, useUnifiedTopology: false}
-		// )
-		mongoose.connect(`mongodb://mongo:27017/${process.env.DB_NAME}`, 
-			{ useNewUrlParser: true, useUnifiedTopology: false}
+		mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, 
+			{ useNewUrlParser: true, useUnifiedTopology: true}
 		)
+		// mongoose.connect(`mongodb://mongo:27017/${process.env.DB_NAME}`, 
+		// 	{ useNewUrlParser: true, useUnifiedTopology: true}
+		// )
 	break
 	case 'prod':
 		mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}?authSource=admin&w=1`,	
@@ -34,9 +34,11 @@ switch(process.env.NODE_ENV){
 let db = mongoose.connection
 
 if(!db)
-	console.log("Error connecting db")
-else
+	console.log("Error connecting to DB")
+else{
+	console.log(process.env.DB_HOST, process.env.DB_NAME)
 	console.log("DB connected successfully")
+}
 
 const port = process.env.PORT || 4101;
 

@@ -112,10 +112,6 @@ export default function Preference({setuser, prevStep, nextStep}) {
         setprefs({...prefs, bought: [...initial_boughts_prefs], prefered: [...initial_boughts_prefs]})
     }, [])
 
-    useEffect(() => {
-        console.log(prefs)
-    }, [prefs])
-
     return (
         <div className="sign-up">
             <p>Help us to suggest you <span className="txt-secondary fw-500">the most relevant shoes</span>.</p>

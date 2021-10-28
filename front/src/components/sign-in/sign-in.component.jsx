@@ -6,11 +6,11 @@ import { createStructuredSelector } from 'reselect';
 
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
-import { SERVER_URL } from '../../constant';
 import { setCurrentUser } from '../../redux/user/user.actions';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 import './sign-in.styles.scss';
 import { withRouter } from 'react-router';
+import { SERVER_URL } from '../../constant';
 
 
 class SignIn extends React.Component{

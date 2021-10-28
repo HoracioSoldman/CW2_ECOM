@@ -21,6 +21,8 @@ def home():
 	data_predict = [gender, age, country, eval(mostLikedCategory), eval(whatAlreadyHas)]
 	return str(machine_learning.predict(data_predict))
 
-
-app.run(host='0.0.0.0', port=4102)
+from waitress import serve
+serve(app, host="0.0.0.0", port=4102)
+print('ML server listening on 4102')
+# app.run(host='0.0.0.0', port=4102)
 # app.run(port=4102)
