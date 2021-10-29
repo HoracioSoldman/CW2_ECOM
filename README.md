@@ -1,8 +1,8 @@
-# CW2_ECOM (F21EC)
+# CW2_ECOM
+This project is an end-to-end small ecommerce website which has a recommendation system for its users.
 
-You have two folders. The first one **front** for the Frontend and **api** for the backend.
+There are three main folders for the project: **front** for the Frontend, **api** for the backend and **ML** for the Recommender part.
 
-We are using **yarn** as package manager for the repository.
 
 ## Installation
 ### 1. Clone the repo
@@ -26,7 +26,7 @@ For the Recommender system in the ML folder, please run:
 ```
 
 ### 3. Database 
-This project uses mongodb. Therefore, make sure to have it running in your environment otherwise [Install MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials) in your local environment.
+This project uses mongodb. Therefore, it is necessary to have it running in your environment otherwise [Install MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials) in your local environment.
 
 
 ### 4. Environment configuration
@@ -98,6 +98,14 @@ For npm
     cd front
     npm run build
 ```
+
+#### - Run the ML part
+
+```bash
+    cd ML
+    python3 api.py
+```
+
 
 #### - Run the backend
 
