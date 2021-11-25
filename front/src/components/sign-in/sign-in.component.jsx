@@ -102,6 +102,7 @@ class SignIn extends React.Component{
                 value={email}
                 label="Email"
                 required
+                id="email-input"
               />
 
               <FormInput
@@ -111,12 +112,13 @@ class SignIn extends React.Component{
                 handleChange={this.handleChange}
                 label="Password"
                 required
+                id="pwd-input"
               />
               <div >
                 <p className={info.type ? info.type === 'success' ? 'success' : 'danger' : '' }> {info.msg} </p>
               </div>
               <div className='buttons' >
-                <CustomButton type="submit" disabled={loading}> Sign In </CustomButton>
+                <CustomButton type="submit" disabled={loading} id="submit-button"> Sign In </CustomButton>
                 {/* <CustomButton onClick={signInWithGoogle} isGoogleSignIn > Sign in with Google </CustomButton> */}
               </div>
               <div >
