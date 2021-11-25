@@ -15,7 +15,7 @@ import { setCurrentUser } from '../../redux/user/user.actions';
 import './header.styles.scss';
 
 
-const Header = ({ currentUser, setCurrentUser, hidden }) => {
+export const Header = ({ currentUser, setCurrentUser, hidden }) => {
 
     useEffect(() => {
       const token = localStorage.getItem('token')
@@ -94,4 +94,6 @@ const mapStateToProps = createStructuredSelector({
 const mapDispatchToProps = dispatch =>({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 })
+
 export default connect(mapStateToProps, mapDispatchToProps)(Header)
+

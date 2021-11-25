@@ -42,7 +42,6 @@ const Bestpick = ({ currentUser }) => {
             
             axios.post(`${SERVER_URL}/users/recommend`, {email})
             .then(response =>{
-                console.log(response.data)
                 const {message, status, data, brand} = response.data
 
                 setreqstate({
@@ -54,7 +53,7 @@ const Bestpick = ({ currentUser }) => {
                     let temp_list = data.filter((sh, i)=>i<4)
                     setlist([...temp_list])
                     setreqstate({...reqstate, brandTitle: brand})
-                    console.log(data)
+                    
                 }else if (status && status === 'failure'){
                     setreqstate({
                         ...reqstate,
@@ -90,7 +89,6 @@ const Bestpick = ({ currentUser }) => {
         
         axios.post(`${SERVER_URL}/product/branded`, {brand: reqstate.brand})
         .then(response =>{
-            console.log(response.data)
             const {message, status, data, brand} = response.data
 
             setreqstate({
@@ -102,7 +100,6 @@ const Bestpick = ({ currentUser }) => {
                 let temp_list = data.filter((sh, i)=>i<4)
                 setlist([...temp_list])
                 setreqstate({...reqstate, brandTitle: brand})
-                console.log(data)
             }else if (status && status === 'failure'){
                 setreqstate({
                     ...reqstate,
@@ -144,7 +141,7 @@ const Bestpick = ({ currentUser }) => {
                 </div>
                 <CollectionPreview list={list}/> 
                 </>: 
-                <p style={{textAlign: "center"}}></p>
+                <p style={{textAlign: "center"}}>Nothing to show</p>
             }
         </div>
 }
@@ -155,4 +152,4 @@ const mapStateToProps = createStructuredSelector({
 }) 
 
 export default connect(mapStateToProps, null)(Bestpick);
-
+ export {Bestpick}

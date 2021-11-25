@@ -100,3 +100,5 @@ migrations
 #built project
 front/build
 front/.env.*
+
+api/build

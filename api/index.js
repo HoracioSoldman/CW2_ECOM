@@ -48,9 +48,9 @@ app.use('/api', apiRoutes);
 app.use(express.static(path.join(__dirname, './build')));
 
 
-app.get('**', (req, res) => {
-  return res.sendFile(path.join(__dirname, './build', 'index.html'));
-});
+// app.get('**', (req, res) => {
+//   return res.sendFile(path.join(__dirname, './build', 'index.html'));
+// });
 
 app.listen(port, function () {
 	console.log("Running Application on port " + port);
